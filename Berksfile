@@ -1,5 +1,5 @@
 # source 'http://cookbooks.opscode.com/api/v1/cookbooks'
-# source 'https://api.berkshelf.com'
+source 'https://api.berkshelf.com'
 
 cookbook 'redis', github: 'coderanger/chef-redis', tag: '1.0.4'
 cookbook 'glusterfs', github: 'alecpm/glusterfs-cookbook', tag: '0.1.1'
